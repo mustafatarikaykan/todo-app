@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+#input {
+  width: 300px;
+  height: 30px;
+}
+
+
+#itemListElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#alertMessage {
+  color: red;
+  font-family: sans-serif;
+  display: none;
+}
+
+#emptyMessage {
+  color: red;
+  font-family: sans-serif;
+  display: none;
+}
